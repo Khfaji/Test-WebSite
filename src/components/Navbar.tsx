@@ -40,7 +40,7 @@ const Navbar = () => {
                         <text x="4" y="18" fontSize="12" fontWeight="bold" fill="white">JC</text>
                     </svg>
                 </div>
-                <span className="font-bold text-sm sm:text-base lg:text-lg tracking-wide">JCREA</span>
+                <span className="font-bold text-sm sm:text-base lg:text-lg tracking-wide">KHFAJI</span>
             </div>
 
             {/* Right Menu (Desktop) */}

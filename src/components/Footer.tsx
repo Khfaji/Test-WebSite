@@ -52,7 +52,7 @@ const Footer = () => {
                                 <text x="4" y="18" fontSize="12" className="sm:text-sm lg:text-base" fontWeight="bold" fill="white">JC</text>
                             </svg>
                         </div>
-                        <span className="font-bold text-base sm:text-lg tracking-wide cursor-pointer">JCREA</span>
+                        <span className="font-bold text-base sm:text-lg tracking-wide cursor-pointer">KHFAJI</span>
                     </div>
                     <p className="w-full h-auto lg:h-[61px] text-[16px] sm:text-[18px] lg:text-[20px] text-[#FCFCFD]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.</p>
                     <div className="flex gap-2 sm:gap-2.5">
