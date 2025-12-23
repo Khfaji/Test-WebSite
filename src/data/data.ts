@@ -48,7 +48,7 @@ export const experiences: Experience[] = [
     duration: "Sep 2016 - July 2020",
     role: "Experience Designer",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales.",
-    dotColor: "bg-[#FD853A]",
+    dotColor: "bg-[#0A3D62]",
   },
   {
     company: "Sugee Pvt limited, Mumbai",
@@ -62,7 +62,7 @@ export const experiences: Experience[] = [
     duration: "Sep 2023",
     role: "Lead UX Designer",
     desc: "",
-    dotColor: "bg-[#FD853A]",
+    dotColor: "bg-[#0A3D62]",
   },
 ];
 

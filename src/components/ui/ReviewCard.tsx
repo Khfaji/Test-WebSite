@@ -40,8 +40,8 @@ export default function ReviewCard({ name, role, rating, text }: Review) {
               key={i} 
               size={16} 
               className="sm:w-5 sm:h-5 lg:w-6 lg:h-6 xl:w-7 xl:h-7" 
-              fill="#FD853A" 
-              stroke="#FD853A" 
+              fill="#0A3D62"
+              stroke="#0A3D62" 
             />
           ))}
         </div>

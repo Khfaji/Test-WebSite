@@ -14,7 +14,7 @@ export default function DualToggleButtons() {
         className={`group flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-[60px] transition-all duration-300 ease-in-out cursor-pointer
           ${
             active === "portfolio"
-              ? "bg-[#FD853A] text-white font-medium text-[25px] w-[208px] h-[62px] border border-[#D0D5DD] shadow-md"
+              ? "bg-[#0A3D62] text-white font-medium text-[25px] w-[208px] h-[62px] border border-[#D0D5DD] shadow-md"
               : "bg-transparent text-white font-light text-[18px] w-[129px] h-[54px]"
           }`}
       >
@@ -35,7 +35,7 @@ export default function DualToggleButtons() {
         className={`group flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-[60px] transition-all duration-300 ease-in-out cursor-pointer
           ${
             active === "hire"
-              ? "bg-[#FD853A] text-white font-medium text-[25px] w-[208px] h-[62px] border border-[#D0D5DD] shadow-md"
+              ? "bg-[#0A3D62] text-white font-medium text-[25px] w-[208px] h-[62px] border border-[#D0D5DD] shadow-md"
               : "bg-transparent text-white font-light text-[18px] w-[129px] h-[54px]"
           }`}
       >

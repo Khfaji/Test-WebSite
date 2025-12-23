@@ -46,12 +46,12 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ image, title, href, desc,
         <div className="flex justify-end p-2 md:p-4">
           <Link href={href}>
             <div className="w-[40px] h-[40px] md:w-[60px] md:h-[60px] 
-              rounded-full border-2 border-[#FD853A] 
-              group-hover:bg-[#FD853A] 
+              rounded-full border-2 border-[#0A3D62] 
+              group-hover:bg-[#0A3D62] 
               flex items-center justify-center 
               transition-all duration-300"
             >
-              <ArrowButton className="transition-all duration-300 stroke-[#FD853A] group-hover:stroke-white" />
+              <ArrowButton className="transition-all duration-300 stroke-[#0A3D62] group-hover:stroke-white" />
             </div>
           </Link>
         </div>

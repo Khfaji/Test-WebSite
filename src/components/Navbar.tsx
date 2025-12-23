@@ -25,7 +25,7 @@ const Navbar = () => {
                 {menuItems.slice(0, 3).map((item) => (
                     <button
                         key={item.label}
-                        className={`w-[139px] h-[66px] flex items-center justify-center rounded-[60px] text-base font-medium transition duration-300 ${selected === item.label ? 'bg-[#FD853A] font-bold' : 'bg-transparent hover:bg-[#232323]'}`}
+                        className={`w-[139px] h-[66px] flex items-center justify-center rounded-[60px] text-base font-medium transition duration-300 ${selected === item.label ? 'bg-[#0A3D62] font-bold' : 'bg-transparent hover:bg-[#232323]'}`}
                         onClick={() => setSelected(item.label)}
                     >
                         {item.label}
@@ -35,7 +35,7 @@ const Navbar = () => {
 
             {/* Logo */}
             <div className="flex flex-col items-center flex-shrink-0 cursor-pointer">
-                <div className="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#FD853A] rounded-full flex items-center justify-center mb-1">
+                <div className="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#0A3D62] rounded-full flex items-center justify-center mb-1">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                         <text x="4" y="18" fontSize="12" fontWeight="bold" fill="white">JC</text>
                     </svg>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 {menuItems.slice(3).map((item) => (
                     <button
                         key={item.label}
-                        className={`w-[139px] h-[66px] flex items-center justify-center rounded-[60px] text-base font-medium transition duration-300 ${selected === item.label ? 'bg-[#FD853A] font-bold' : 'bg-transparent hover:bg-[#232323]'}`}
+                        className={`w-[139px] h-[66px] flex items-center justify-center rounded-[60px] text-base font-medium transition duration-300 ${selected === item.label ? 'bg-[#0A3D62] font-bold' : 'bg-transparent hover:bg-[#232323]'}`}
                         onClick={() => setSelected(item.label)}
                     >
                         {item.label}
@@ -58,7 +58,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Button */}
             <button
-                className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-[#FD853A] hover:bg-[#e67a2e] transition-colors"
+                className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-[#0A3D62] hover:bg-[#e67a2e] transition-colors"
                 onClick={toggleMobileMenu}
             >
                 {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
@@ -71,7 +71,7 @@ const Navbar = () => {
                         {menuItems.map((item) => (
                             <button
                                 key={item.label}
-                                className={`w-full h-[50px] flex items-center justify-center rounded-[25px] text-base font-medium transition duration-300 ${selected === item.label ? 'bg-[#FD853A] font-bold' : 'bg-transparent hover:bg-[#232323]'}`}
+                                className={`w-full h-[50px] flex items-center justify-center rounded-[25px] text-base font-medium transition duration-300 ${selected === item.label ? 'bg-[#0A3D62] font-bold' : 'bg-transparent hover:bg-[#232323]'}`}
                                 onClick={() => {
                                     setSelected(item.label);
                                     setIsMobileMenuOpen(false);

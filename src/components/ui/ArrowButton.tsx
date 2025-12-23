@@ -33,7 +33,7 @@ const ArrowButton: React.FC<ArrowButtonProps> = ({
         width={height / 2}
         height={height / 2}
         viewBox="0 0 24 24"
-        className={`stroke-[#FD853A] ${className}`}
+        className={`stroke-[#0A3D62] ${className}`}
         style={{
           transform: `rotate(${rotate}deg)`,
         }}

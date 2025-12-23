@@ -31,7 +31,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background: #fd853a !important;
+  background: #0A3D62 !important;
   width: 60px !important;
   height: 15px !important;
   border-radius: 21px !important;
@@ -49,10 +49,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FD853A;
+  background: #0A3D62;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #e4752f;
+  background: #051d35;
 }

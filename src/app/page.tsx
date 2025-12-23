@@ -35,7 +35,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row sm:gap-2 items-center sm:items-end mb-1 mt-6 sm:mt-8">
               <CustomeText title="I&apos;m" className="text-[#171717] font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px]" />
               <div className="flex items-end">
-                <CustomeText title="Abhiruchi" className="text-[#FD853A] font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px]" />
+                <CustomeText title="Abhiruchi" className="text-[#0A3D62] font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px]" />
                 <CustomeText title="," className="text-[#171717] font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px]" />
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="relative w-full max-w-[952px] aspect-[3/2] flex flex-col items-center justify-center -translate-y-[10%] sm:-translate-y-[15%] md:-translate-y-[20%] mx-auto px-4">
             <div className="absolute bottom-0 z-0 w-[90%] max-w-[812px] aspect-[2/1] overflow-hidden flex items-center justify-center pointer-events-auto">
-              <div className="absolute w-full h-full bg-[#FEB273] rounded-t-full" />
+              <div className="absolute w-full h-full bg-[#a8d0e6] rounded-t-full" />
             </div>
 
             <div className="absolute z-10 transition-all duration-500 ease-in-out opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-105">
@@ -76,7 +76,7 @@ export default function Home() {
         <div className="hidden lg:flex w-[169px] h-[125px] flex-col items-end justify-end gap-2 transition-transform duration-300 ease-in-out group-hover:-translate-y-[250px]">
           <div className="flex gap-1">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} size={32} fill="#FD853A" stroke="#FD853A" />
+              <Star key={i} size={32} fill="#0A3D62" stroke="#0A3D62" />
             ))}
           </div>
           <h1 className="text-[32px] font-bold text-[#171717] leading-none whitespace-nowrap">
@@ -98,7 +98,7 @@ export default function Home() {
         <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-6 relative z-10">
           <div className="flex gap-2.5">
             <CustomeText title="My" className="font-medium text-3xl sm:text-4xl lg:text-5xl text-[#FCFCFD]" />
-            <CustomeText title="Services" className="font-medium text-3xl sm:text-4xl lg:text-5xl text-[#FD853A]" />
+            <CustomeText title="Services" className="font-medium text-3xl sm:text-4xl lg:text-5xl text-[#0A3D62]" />
           </div>
           <p className="w-full lg:w-[578px] font-medium text-base sm:text-lg lg:text-[20px] text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc,
@@ -120,8 +120,8 @@ export default function Home() {
       <div className="w-full min-h-[600px] lg:h-[827px] flex flex-col items-start mx-auto px-4 sm:px-6 lg:px-[71px] py-8 lg:py-16">
         <div className="w-full h-auto lg:h-[234px] flex lg:flex-row items-start justify-center space-x-2.5 mb-8 lg:mb-16 text-center lg:text-left">
           <CustomeText title="My" className="font-medium text-4xl sm:text-5xl lg:text-6xl text-[#344054]" />
-          <CustomeText title="Work" className="font-medium text-4xl sm:text-5xl lg:text-6xl text-[#FD853A]" />
-          <CustomeText title="Experience" className="font-medium text-4xl sm:text-5xl lg:text-6xl text-[#FD853A]" />
+          <CustomeText title="Work" className="font-medium text-4xl sm:text-5xl lg:text-6xl text-[#0A3D62]" />
+          <CustomeText title="Experience" className="font-medium text-4xl sm:text-5xl lg:text-6xl text-[#0A3D62]" />
         </div>
 
         <div className="w-full lg:hidden">
@@ -202,7 +202,7 @@ export default function Home() {
         <div className="w-full max-w-xl flex flex-col items-start gap-8">
           <div className="flex flex-wrap text-4xl sm:text-5xl lg:text-6xl font-semibold gap-2">
             <CustomeText title="Why" className="text-[#344054]" />
-            <CustomeText title="Hire me" className="text-[#FD853A]" />
+            <CustomeText title="Hire me" className="text-[#0A3D62]" />
             <CustomeText title="?" className="text-[#344054]" />
           </div>
 
@@ -256,7 +256,7 @@ export default function Home() {
               />
               <CustomeText
                 title="Portfolio"
-                className="font-semibold text-[32px] sm:text-[48px] lg:text-[64px] text-[#FD853A]"
+                className="font-semibold text-[32px] sm:text-[48px] lg:text-[64px] text-[#0A3D62]"
               />
             </div>
           </div>
@@ -279,7 +279,7 @@ export default function Home() {
               {buttons.map((text, index) => (
                 <button
                   key={index}
-                  className="px-6 sm:px-8 py-3 rounded-[24px] bg-[#F2F4F7] text-[#000000] text-[16px] sm:text-[18px] lg:text-[20px] hover:bg-[#FD853A] hover:text-white transition-colors duration-300"
+                  className="px-6 sm:px-8 py-3 rounded-[24px] bg-[#F2F4F7] text-[#000000] text-[16px] sm:text-[18px] lg:text-[20px] hover:bg-[#0A3D62] hover:text-white transition-colors duration-300"
                 >
                   {text}
                 </button>
@@ -293,7 +293,7 @@ export default function Home() {
                 title="Lirante - Food Delivery Solution"
                 className="font-bold text-[28px] sm:text-[32px] lg:text-[40px] text-[#344054]"
               />
-              <div className="w-[50px] h-[50px] sm:w-[58px] sm:h-[58px] rounded-full bg-[#FD853A] hidden md:flex items-center justify-center transition-all duration-300">
+              <div className="w-[50px] h-[50px] sm:w-[58px] sm:h-[58px] rounded-full bg-[#0A3D62] hidden md:flex items-center justify-center transition-all duration-300">
                 <ArrowButton className="transition-all duration-300 stroke-white -rotate-45" />
               </div>
             </div>
@@ -326,7 +326,7 @@ export default function Home() {
               />
               <CustomeText
                 title="My Result"
-                className="font-medium text-[28px] sm:text-[36px] lg:text-[48px] text-[#FD853A]"
+                className="font-medium text-[28px] sm:text-[36px] lg:text-[48px] text-[#0A3D62]"
               />
             </div>
           </div>
@@ -360,13 +360,13 @@ export default function Home() {
             />
             <CustomeText
               title="Let's Discuss"
-              className="font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-[64px] text-[#FD853A]"
+              className="font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-[64px] text-[#0A3D62]"
             />
           </div>
         </div>
 
         <div className="w-full max-w-3xl flex md:flex-row items-center justify-between gap-4 px-3 py-2 md:px-6 md:py-4 rounded-full border border-[#E4E7EC] bg-white">
-          <div className="w-9 h-9 md:w-[50px] md:h-[50px] flex items-center justify-center rounded-full bg-[#FFEAD5] shrink-0">
+          <div className="w-9 h-9 md:w-[50px] md:h-[50px] flex items-center justify-center rounded-full bg-[#c7e0f0] shrink-0">
             <Image
               src="/sms.svg"
               alt="message icon"
@@ -382,7 +382,7 @@ export default function Home() {
               className="w-full md:flex-1 px-4 py-2 rounded-full text-center md:text-left text-base sm:text-lg outline-none bg-transparent text-[#1D2939] placeholder:text-[#667085]"
             />
 
-            <button className="w-fit px-6 md:px-12 py-1 md:py-3 rounded-full bg-[#FD853A] hover:bg-[#e4752f] text-white text-lg font-semibold transition duration-300">
+            <button className="w-fit px-6 md:px-12 py-1 md:py-3 rounded-full bg-[#0A3D62] hover:bg-[#e4752f] text-white text-lg font-semibold transition duration-300">
               Send
             </button>
           </ClientOnly>
@@ -402,7 +402,7 @@ export default function Home() {
       </div>
 
       {/* Skills Slider */}
-      <div className="relative w-full h-[147px] bg-[#FB6514] rounded-tl-4xl rounded-br-4xl overflow-hidden">
+      <div className="relative w-full h-[147px] bg-[#0A3D62] rounded-tl-4xl rounded-br-4xl overflow-hidden">
         <div className="absolute w-[5000px] h-[63px] bg-white -rotate-2 -mt-2 md:mt-0 md:-rotate-[1.9deg] z-10 -ml-2 flex items-center">
           <div className="marquee flex gap-8 w-max">
             {[...skills, ...skills].map((skill, index) => (
@@ -419,7 +419,7 @@ export default function Home() {
                 >
                   <path
                     d="M16.4828 0.257982L21.715 12.3411L34.2082 16.5003L22.1251 21.7324L17.9659 34.2256L12.7337 22.1425L0.240553 17.9833L12.3237 12.7512L16.4828 0.257982Z"
-                    fill="#FD853A"
+                    fill="#0A3D62"
                   />
                 </svg>
                 {skill}
